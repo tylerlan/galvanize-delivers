@@ -16,8 +16,18 @@
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
   <style>
-    .parallax img {
+    #hero .parallax img {
       display: block;
+    }
+    nav a, nav ul {
+      margin-left: 10px;
+      margin-right: 10px;
+    }
+    #promo.section {
+      margin: 2% auto;
+    }
+    #promo i {
+      vertical-align: bottom;
     }
   </style>
 </head>
@@ -31,44 +41,63 @@
         <a href="#" class="brand-logo">Galvanize Delivers</a>
         <ul id="nav-mobile" class="right hide-on-med-and-down">
           <li><a href="order.html">Order</a></li>
-          <li><a href="badges.html">Delivery</a></li>
+          <li><a href="delivery.html">Delivery</a></li>
         </ul>
       </div>
     </nav>
   </div>
 
   <!-- HERO -->
-  <div class="parallax-container center-align valign-wrapper">
+  <div id="hero" class="parallax-container center-align valign-wrapper">
     <div class="parallax"><img src="img/hero.jpg"></div>
     <div class="container">
       <h1 class="white-text text-darken-2"><strong>Fine Dining, Delivered.</strong></h1>
 
-      <a class="pink accent-2 waves-effect waves-red waves-ripple btn-large">Place An Order</a>
+      <a class="pink accent-2 waves-effect waves-yellow waves-ripple btn-large" href="order.html">Place An Order</a>
     </div>
   </div>
 
   <!-- PROMO -->
-  <div class="section white">
+  <div id="promo" class="section white">
     <div class="row container">
       <div class="col s4">
-        <h4 class="pink-text text-accent-2"><span><i class="small material-icons">shopping_basket</i></span> Shop Online</h4>
+        <h5 class="pink-text text-accent-2"><i class="small material-icons">shopping_basket</i> Shop Online</h5>
         <p>Using our conveinient web app, you'll get all the power of gFood without having to call your order in. Order in your pajamas, order 24 hours a day, order on Christmas, we're here to serve you.</p>
       </div>
       <div class="col s4">
-        <h4 class="pink-text text-accent-2"><span><i class="small material-icons">local_shipping</i></span> Fast Delivery</h4>
+        <h5 class="pink-text text-accent-2"><i class="small material-icons">local_shipping</i> Fast Delivery</h5>
         <p>You've never seen ordering this quick. Our proprietary ordering rocket ship delivery team allows you to spend less time being hungry, and more time doing what matters most to you. We'd ask what that is, but gFood respects your privacy.</p>
       </div>
       <div class="col s4">
-        <h4 class="pink-text text-accent-2"><span><i class="small material-icons">local_atm</i></span> Great Deals</h4>
+        <h5 class="pink-text text-accent-2"><i class="small material-icons">local_atm</i> Great Deals</h5>
         <p>Money: You've got it, we want it. But let it never be said we're not incredibly fair! Burger sales? Check. Pizza sales? Check. Burger and pizza sales?? Check, check, check! We seriously can't stop making deals.</p>
       </div>
     </div>
   </div>
 
-
-
-
   <!-- FOOTER -->
+  <footer class="page-footer blue darken-3">
+    <div class="container">
+      <div class="row">
+        <div class="col l6 s12">
+          <h5 class="white-text">Galvanize Delivers</h5>
+          <p class="grey-text text-lighten-4">Fine Dining, Delivered.</p>
+        </div>
+        <div class="col l4 offset-l2 s12">
+          <ul>
+            <li><a class="grey-text text-lighten-3" href="index.html">Home</a></li>
+            <li><a class="grey-text text-lighten-3" href="order.html">Order</a></li>
+            <li><a class="grey-text text-lighten-3" href="delivery.html">Delivery</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="footer-copyright blue darken-4">
+      <div class="container">
+        © 2014 Copyright Text
+      </div>
+    </div>
+  </footer>
 
 
 
