@@ -1,0 +1,17 @@
+#hero .parallax img {
+  display: block;
+}
+
+nav a,
+nav ul {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+#promo.section {
+  margin: 2% auto;
+}
+
+#promo i {
+  vertical-align: bottom;
+}
