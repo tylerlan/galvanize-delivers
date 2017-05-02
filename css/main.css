@@ -37,3 +37,13 @@ textarea.materialize-textarea:focus:not([readonly]) {
   border-bottom: 1px solid #4CAF50;
   box-shadow: 0 1px 0 0 #4CAF50;
 }
+
+/* NOTE: See materialize.css line 5810 for the original */
+.input-field .prefix.active {
+  color: #FF4081;
+}
+
+/* NOTE: See materialize.css line 5620 for the original */
+textarea.materialize-textarea:focus:not([readonly]) + label {
+  color: #FF4081;
+}
