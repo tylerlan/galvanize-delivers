@@ -47,3 +47,7 @@ textarea.materialize-textarea:focus:not([readonly]) {
 textarea.materialize-textarea:focus:not([readonly]) + label {
   color: #FF4081;
 }
+
+.card-action a {
+  cursor: pointer;
+}
