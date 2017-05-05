@@ -55,4 +55,34 @@ function updateTable(name, price) {
 
 
 
+
+
+
+
+
+
+
+$('#place-order').click( function() {
+
+// Check if the cart has any items
+  if (subtotal === 0) {
+    Materialize.toast('You haven\'t added any items!', 4000,'',function(){console.log('Your toast was dismissed')})
+  } else {
+    // Check if they have entered contact information
+    if ($('#textarea1').val().length > 0 && $('#textarea2').val().length > 0 && $('#textarea3').val().length > 0) {
+      Materialize.toast('Thanks for ordering!', 4000,'',function(){console.log('Your toast was dismissed')})
+    } else {
+      Materialize.toast('You have not entered your full information!', 4000,'',function(){console.log('Your toast was dismissed')})
+    }
+
+  }
+
+} )
+
+
+
+
+
+
+
 //
