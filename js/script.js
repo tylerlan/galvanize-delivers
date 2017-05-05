@@ -1,3 +1,7 @@
+/* =================
+    ORDER HANDLER
+=================== */
+
 let subtotal = 0;
 
 $('.card-action').click(function() {
@@ -48,19 +52,9 @@ function updateTable(name, price) {
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+/* =================
+    TOAST HANDLER
+=================== */
 
 $('#place-order').click( function() {
 
@@ -78,11 +72,3 @@ $('#place-order').click( function() {
   }
 
 } )
-
-
-
-
-
-
-
-//
